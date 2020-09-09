@@ -1,16 +1,22 @@
 import React from "react";
-import ReactDom from "react-dom";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
-import Square from "./Square";
-import Board from "./Board";
-import Game from "./Game";
+import Reactlessons from "./Reactlessons";
+import Passwordbox from "./Passwordbox";
+import Reactaccount from "./Reactaccount";
+import Formsaleem from "./Formsaleem";
+import Togimage from "./Togimage";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Board />
+        {/* <Calculator /> */}
+        {/* <Formsaleem /> */}
+
+        {/* <Reactaccount /> */}
+        {/* <Reactlessons /> */}
+        {/* <Passwordbox /> */}
+        <Togimage />
       </div>
     );
   }
